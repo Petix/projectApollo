@@ -2,6 +2,22 @@
 
 - Tanuljatok valamit
 
+# Installation & Run from terminal/powershell
+```sh
+cd server
+# install
+npm install
+# run with auto restart on file save in src
+npm run dev
+
+```
+
+## TODOs
+
+
+- use typescript
+- use ESLint extension, with a good formating config(should be provided by Petix)
+
 ## client
 
 - requests
@@ -16,6 +32,11 @@
     - return Date()
   - POST yyy
     - return { "eztKulted" : message.serialize() }
+### TODOs
+- use express framework
+- use routes for express, to make various endpoints
+- use some logger mechanism(log4js)
+- use nconf(e.g.: to configure port and log4js )
 
 ## common
 
